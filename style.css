@@ -1,0 +1,17 @@
+.cosmo {
+  color: #d63384;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.invisible {
+  display: none;
+}
+
+#langToggle {
+  background-color: #d63384;
+  border: none;
+}

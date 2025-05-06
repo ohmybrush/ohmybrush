@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh My Brush</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Oh My Brush</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link" aria-current="page">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://blog.ohmybrush.com/"
+              target="_blank"
+              class="nav-link"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./testimonials.html" class="nav-link active"
+              >Testimonials</a
+            >
+          </li>
+        </ul>
+      </header>
+
+      <section class="py-5 bg-white">
+        <div class="container">
+          <h2 class="text-center display-4 fw-bold text-body-emphasis mb-5">
+            What People Are Saying
+          </h2>
+
+          <div class="col-lg-8 mx-auto">
+            <p class="lead mb-4 text-start">
+              Reader Feedback from the 10th Anniversary Survey:
+            </p>
+
+            <button id="langToggle" class="btn btn-primary mb-4">
+              Switch to English
+            </button>
+
+            <div class="hungarian">
+              <div class="row g-4">
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Hosszú évek óta olvasom a blogot, Erdélyben élek.
+                        Amikor rátaláltam, azonnal megszerettem, visszamenőleg
+                        is mindent elolvastam, mindig öröm egy új bejegyzés. Az
+                        általad ajánlott termékeket vásárolom, és most már
+                        nagyon sok barátnőm szintén. Nagyon sokat segítenek a
+                        bejegyzéseid, szórakozás, informálódás... És nekem is
+                        hobbim lett a K-beauty."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon köszönöm a munkádat Viki!🙏💖 Rengeteget
+                        segítesz minden információval. Általad ismertem meg ezt
+                        a világot, és szerelmesedtem bele a K-beautyba. Az
+                        életemet már el sem tudnám képzelni nélküle, imádok
+                        mindent, ami ezzel kapcsolatos. A bőrápolás mindig is
+                        nagyon érdekelt, nagy hangsúlyt fektettem mindig a
+                        gyönyörű bőrbe, ez a szenvedélyem. Mindig várom a
+                        tesztjeidet, amik rengeteget segítenek megismerni a
+                        termékeket."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon nagy hálával tartozom Neked! Rengeteget
+                        segítettél így ismeretlenül is. &#128578; A bőrömmel
+                        csodát tettek a koreai és japán kozmetikumok, sikerült
+                        tudatossá formálni a rutinomat Neked köszönhetően. De
+                        mindezek mellett megismertem egy szuper jó társaságot,
+                        aminek Te vagy a fókuszában, és kaptam egy hobbit, ami
+                        bármikor kiszakít a mindennapi gondokból. Úgyhogy nagyon
+                        köszönöm ezt Neked!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon sokat segített, amikor ismerkedtem a
+                        k-beautyval. Szinte mindent innen tanultam. Ez volt az
+                        első oldal, amit ebben a témában találtam akkoriban.
+                        Remélem a jövőben is sok hasznos tartalmat látunk még
+                        tőled."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon szeretem, hogy szabatos magyarsággal, jó
+                        helyesírással írsz. Szerintem ez példamutató. Klassz,
+                        hogy mindig számíthatok rád."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Sokat tanultan tőled a fényvédelemről. Több fényvédőt
+                        is vásároltam a terméktesztek alapján és még biztosan
+                        fogok is. Köszönöm! Hasznos, hogy az adott termékhez
+                        linket is csatolsz, ahonnan meg lehet rendelni."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyjából egy éve kezdett el érdekelni a bőr- és
+                        hajápolás. Rengeteget segítettek az oldalon megtalálható
+                        tesztek és tippek, nagyon sokat tanultam is belőlük.
+                        Köszönöm!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon szeretem a blogod, hatásodra kezdtem el koreai
+                        termékeket használni, azóta sokat javult a bőröm, és
+                        azóta az ismerőseimnek is szoktam krémeket választani a
+                        cikkeid és a saját tapasztalataim alapján."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Én a videókat is szerettem még akkor is, ha nem voltak
+                        tökéletesek, pl. imádtam az utazós videókat, mert olyan
+                        világba kalauzoltál, ahová én valószínűleg nem jutok el,
+                        de nagyon érdekelt. Szerintem a blog szuper és a
+                        Facebook csoport is. &#128578;"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nekem nagyon hasznos volt a blogod, a bőrproblémáimat
+                        abszolút kezelhetővé sikerült tenni az ajánlásaid
+                        alapján, soha nem volt olyan szép a bőröm, mint mióta az
+                        itt megismert termékeket használom. Köszönöm!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Érthetően felépített tartalom, hasznos, széleskörű
+                        termékajánlások a beszerzési források megjelölésével,
+                        részletes termékleírással, felhasználási javaslattal,
+                        értékeléssel. Az elsősorban koreai termékekkel elért
+                        látványos eredmények miatt hobbimmá vált a bőrápolás."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon alapos, részletes beszámolók vannak, rengeteg
+                        terméket megismerhettem általad, amik beépültek a
+                        mindennapi bőrápolási rutinomba. &#128578; Szinte
+                        mindenre általad találtam rá, és jobbnál jobb termékeket
+                        sikerült megismernem. &#128578; Köszönjük a rengeteg
+                        munkádat!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Számomra úgy tökéletes minden, ahogy van: annak idején
+                        a koreai bőrápolás iránti érdeklődésem vezetett ide, és
+                        nagyon tetszik, hogy itt rengeteg terméktesztet,
+                        összehasonlításokat, hatóanyagokról szóló információt és
+                        kombinálási segédletet találok. Külön köszönöm, hogy
+                        aktívan kutatod a "mindenmentes" termékeket, és hogy
+                        minden terméknél feltünteted az összetevőlistát - ezek
+                        számomra extrán fontosak, mivel a bőröm érzékenysége
+                        miatt csak "mindenmentes" termékeket használok. Nagyon
+                        tetszik az oldal letisztultsága, az egyes cikkek
+                        felépítése, és hogy mindig őszintén, mégis
+                        tisztelettudóan írod le minden termékről a pozitív és
+                        negatív dolgokat egyaránt - ez is nagyban megkönnyíti a
+                        választást. "
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Elmondhatatlanul sokat tanultam a blogodból: a húszas
+                        éveim elejéig a bőrápolással kapcsolatos tudásom a
+                        nullával volt egyenlő, de mióta rátaláltam az oldalra, a
+                        bőröm fényévekkel szebb és sokkal komfortosabban érzi
+                        magát, a korábbi zsírosodás pl. teljesen megszűnt,
+                        szinte normálba hajlik már - tudom, hogy ez hormonális
+                        változások függvénye is, de biztos vagyok benne, hogy a
+                        tudatos bőrápolás is kulcsszerepet játszik. Köszönöm
+                        Neked a rengeteg munkát, időt, energiát, és minden
+                        egyebet, amit az oldalba fektetsz! Kérlek, amíg örömet
+                        okoz, és nem kényszerből, hanem szívesen csinálod, addig
+                        ne hagyd abba. &#128578;"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Imádom a blogodat, évek óta hűséges olvasod vagyok, és
+                        mióta megvan a facebook csoport, azóta a követőd is.
+                        Amit üzeni szeretnék neked az egy hatalmas köszönet,
+                        hogy elkezdtél blogolni, nagyon nagyon sokat segítettél
+                        a bőrápolásomban, hogy mit, hogy használjak, hogyan
+                        állítsam össze a rutinom... stb. Nem is tudom, mi lenne
+                        velem a blogod nélkül, úgyhogy nem tudom elégszer
+                        megköszönni, hogy vagy nekünk! &#128578; "
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Köszönöm a munkádat és a sok segítséget, amit a blogod
+                        nyújt! &#128578; Már többször is választottam terméket a
+                        tesztjeid és ajánlásaid alapján és sosem bántam meg."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Nagyon hasznosak az írások, főleg, hogy a bőrtípusunk
+                        hasonló. 4 gyerek mellett kevés időm van kedvemre
+                        kutatni a neten, és az ajánlóid nagyon megkönnyítik a
+                        választást."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Rengeteget segített a blog, mindig az ajánlásaid miatt
+                        veszek új terméket és a bőrápolásom is a tanácsaid
+                        alapján alakult ki. Köszönöm! &#128578;"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Le a kalappal a következetességed, kitartásod és
+                        hitelességed előtt! &#128578; Csak így tovább!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Köszi mindent, nagyon fontos amit csinálsz, sok-sok
+                        embernek segítettél azáltal, hogy mégis megismertetetted
+                        a K-beauty világát a magyarokkal (pl. nekem az 70+
+                        anyosóm is használja a Benton zöld tonerét, így terjed a
+                        K-Beauty)."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="english invisible">
+              <div class="row g-4">
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I have been reading the blog for many years, I live in
+                        Transylvania. When I found it, I immediately fell in
+                        love with it, I went back and read all the older posts
+                        too, a new post is always a joy. I buy the products you
+                        recommend, and now many of my friends do too. Your posts
+                        are both informative and entertaining... And K-beauty
+                        has become my hobby too."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Thank you so much for your work, Viki!🙏💖 You help a
+                        lot with all the information. Through you, I discovered
+                        this world and fell in love with K-beauty. I can't
+                        imagine my life without it anymore, I love everything
+                        related to it. Skincare has always interested me, I have
+                        always put great emphasis on beautiful skin, it's my
+                        passion. I always look forward to your reviews, they
+                        help a lot in getting to know the products."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I owe you a huge debt of gratitude! You have helped me
+                        so much, even though we haven't met. 😊 Korean and
+                        Japanese cosmetics have worked wonders on my skin, and I
+                        managed to make my routine more mindful thanks to you.
+                        But on top of that, I discovered an amazing community,
+                        with you at its core, and I found a hobby that can pull
+                        me out of everyday troubles at any time. So thank you so
+                        much for this!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "You helped me so much when I was just discovering
+                        K-beauty. I learned almost everything from here. This
+                        was the first site I found on this topic back then. I
+                        hope we'll see lots more useful content from you in the
+                        future."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I really love that you write with precise Hungarian and
+                        good spelling. I think it's exemplary. It's great that I
+                        can always count on you."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I have learned a lot from you about sun protection. I
+                        have bought several sunscreens based on your product
+                        reviews and I will definitely buy more. Thank you! It's
+                        helpful that you also provide a link to the product, so
+                        it can be ordered."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "About a year ago, I became interested in skincare and
+                        haircare. The reviews and tips on the site have helped a
+                        lot, and I've learned a lot from them. Thank you!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I really love your blog, and it was because of you that
+                        I started using Korean products. Since then, my skin has
+                        improved a lot, and I now choose creams for my friends
+                        based on your articles and my own experiences."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I also loved the videos, even when they weren't
+                        perfect, for example, I adored the travel videos because
+                        you took me to places I’ll probably never visit, but I
+                        was really interested in them. I think the blog is
+                        great, and so is the Facebook group. 😊"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Your blog has been really helpful to me. I was able to
+                        manage my skin issues completely based on your
+                        recommendations, and my skin has never been as beautiful
+                        as it is since I started using the products I discovered
+                        here. Thank you."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Clear and well-structured content, useful and extensive
+                        product recommendations with sourcing information,
+                        detailed product descriptions, usage suggestions, and
+                        reviews. The impressive results achieved with primarily
+                        Korean products have made skincare my hobby."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "There are very thorough, detailed reviews, and I’ve
+                        discovered so many products through you that have become
+                        part of my daily skincare routine. 😊 I’ve found almost
+                        everything through you, and I’ve come to know better and
+                        better products. 😊 Thank you for all your hard work!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "For me, everything is perfect as it is: my interest in
+                        Korean skincare led me here, and I really like that I
+                        can find so many product reviews, comparisons,
+                        information about active ingredients, and guides on how
+                        to combine them. I especially appreciate that you
+                        actively research "free-from-harmful-ingredients"
+                        products and list the ingredient lists for every product
+                        – these are extremely important to me since, due to my
+                        skin's sensitivity, I only use
+                        "free-from-harmful-ingredients" products. I really like
+                        the simplicity of the site, the structure of each
+                        article, and how you always describe both the positive
+                        and negative aspects of every product honestly yet
+                        respectfully – this makes it much easier to choose."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I have learned an immeasurable amount from your blog:
+                        until my early twenties, my knowledge of skincare was
+                        zero, but since I found your site, my skin has improved
+                        tremendously and feels much more comfortable. For
+                        example, the oiliness has completely disappeared, and my
+                        skin is almost leaning toward normal now – I know this
+                        is also dependent on hormonal changes, but I am sure
+                        that conscious skincare plays a key role. Thank you for
+                        all the work, time, energy, and everything else you
+                        invest in the site! Please, as long as it brings you joy
+                        and you do it willingly, not out of obligation, don’t
+                        stop. 😊"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "I love your blog, I’ve been a loyal reader for years,
+                        and since the Facebook group started, I’ve been
+                        following you as well. The message I want to send you is
+                        a huge thank you for starting to blog, you’ve helped me
+                        so much with my skincare – what to use, how to use it,
+                        how to put my routine together... etc. I don't even know
+                        what I would do without your blog, so I can't thank you
+                        enough for being here for us! 😊 "
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Thank you for your work and all the help your blog
+                        provides! 😊 I’ve chosen products based on your reviews
+                        and recommendations several times, and I’ve never
+                        regretted it."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Your posts are very helpful, especially since our skin
+                        types are similar. With four kids, I have little time to
+                        research online, and your recommendations make choosing
+                        much easier."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "The blog has helped me a lot, I always buy new products
+                        because of your recommendations, and my skincare routine
+                        has been built based on your advice. Thank you! 😊"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Hats off to your consistency, perseverance, and
+                        credibility! 😊 Keep up the great work!"
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div class="card h-100 shadow-sm bg-light rounded-3">
+                    <div class="card-body">
+                      <p class="card-text lead">
+                        "Thanks for everything, what you do is very important,
+                        you've helped so many people by introducing the world of
+                        K-beauty to Hungarians (for example, my 70+
+                        mother-in-law also uses the Benton green toner, so
+                        K-beauty is spreading)."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <svg class="bi" width="30" height="24" aria-hidden="true">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="dynamic-year mb-3 mb-md-0 text-body-secondary"></span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.instagram.com/ohmybrushblog/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener"
+                ><i class="bi bi-instagram" style="font-size: 24px"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.facebook.com/ohmybrush"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener"
+                ><i class="bi bi-facebook" style="font-size: 24px"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://blog.ohmybrush.com/"
+                aria-label="Blog"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="bi bi-newspaper" style="font-size: 24px"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.youtube.com/ohmybrush"
+                aria-label="YouTube"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="bi bi-youtube"
+                  style="font-size: 30px; position: relative; bottom: 3.5px"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
